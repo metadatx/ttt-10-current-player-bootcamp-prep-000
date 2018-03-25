@@ -2,7 +2,7 @@ def turn_count(board)
   turn_cnt = 0
   board.each do |value|
     if value.strip == "X" || value.strip == "Y"
-      turns += 1
+      turn_cnt += 1
     end
   end
   turn_cnt
